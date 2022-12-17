@@ -32,14 +32,7 @@
 
 
 }
-.card-group ,.card{
-/* width: 1000px; */
-/* position: relative; */
-/* justify-content: center !important; */
-/* margin: auto; */
-/* left: 50px; */
-/* right: 50%; */
-}
+
 .logo{
   height: 20px;
   width: 20px;
@@ -65,11 +58,14 @@
 
 }
 .About img{
-  width: 350px;
-  padding-right: 25px;
+  /* width: 350px; */
+  /* padding-right: 25px; */
+  min-height: 613px;
+  background-position: 50% 50%;
+  /* width: auto; */
 }
 .contactus{
-  background-image: url(fd-min.jpg);
+  background-image: url(images/fd-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 409px;
@@ -80,4 +76,30 @@
     top: 160px;
     left: 181px;
     color: white;
+}
+.part5 img{
+  height: 500px;
+}
+.part5 .box{
+  padding: 10px 10px 10px 22px;
+    color: white;
+    font-weight: bold;
+}
+.part5 .part{
+  display:grid;
+}
+.part5 .save{
+  position: relative;
+  margin: auto;
+  right: 271px;
+  top: 91px;
+}
+.save h1{
+  font-size: 50px!important;
+}
+.part5 p{
+  position: relative;
+  text-align: start;
+  top: 76px;
+  font-size: 22px;
 }

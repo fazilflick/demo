@@ -43,7 +43,7 @@
     text-decoration: none solid rgb(17, 17, 17);
     font-size: 3rem;
     margin: 0;
-    padding: 20px 0 0 17px;
+    padding: 21px 0 0 0px;
 }
 .About p{
     line-height: 2;
@@ -68,7 +68,9 @@
   background-image: url(images/fd-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 409px;
+  height: 500px;
+
+  /* background-color: #000; */
 }
 .contactus p{
   justify-content: center;
@@ -76,9 +78,14 @@
     top: 160px;
     left: 181px;
     color: white;
+    text-align: left;
+    font-size: 20px;
+}
+.part5{
+  padding: 75px;
 }
 .part5 img{
-  height: 500px;
+  height: 600px;
 }
 .part5 .box{
   padding: 10px 10px 10px 22px;
@@ -96,6 +103,7 @@
 }
 .save h1{
   font-size: 50px!important;
+  font-weight: bold;
 }
 .part5 p{
   position: relative;
@@ -103,3 +111,186 @@
   top: 76px;
   font-size: 22px;
 }
+
+
+
+
+
+/* contacr us css */
+html, body{
+  font-family: "Lato", sans-serif;
+}
+.cover{
+  background: rgba(9, 9, 9, 0.493);
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  padding: 110px 0px;
+}
+.background{
+  background-image: url(images/xc-min.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.contactInfo{
+  padding: 100px 30px;
+}
+h6{
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.contactInfo .brief{
+  text-transform: capitalize;
+  
+}
+.contactInfo .services ,li{
+  color: aliceblue;
+}
+.contactInfo p{
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+}
+.contactForm{
+  padding: 40px 30px 0px 40px;
+}
+.contactForm:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 2;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  box-shadow: 0px 7px 10px 0px rgba(255, 255, 255, 0.2);
+  background: #fff;
+  width: 600px;
+}
+.contactForm input{
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 55px;
+}
+.contactForm textarea{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  border: 2px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+.contactForm input:placeholder{
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.contactForm textarea:placeholder{
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.contactForm input:hover, .contactForm input:focus{
+  outline: none;
+  box-shadow: none;
+  border: 2px solid transparent;
+  border-bottom-color: #41b4bf;
+}
+.contactForm textarea:hover, .contactForm textarea:focus{
+  outline: none;
+  box-shadow: none;
+  border: 2px solid transparent;
+  border-bottom-color: #41b4bf;
+}
+.button{
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  color: #fff;
+  box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  background: #41b4bf;
+  transition: 0.2s;
+  border: 1px solid #41b4bf;
+  margin-top: 10px;
+}
+.button:hover{
+  cursor: pointer;
+  background: #196d75;
+}
+.button:focus{
+  outline: none;
+}
+@media only screen and (max-width: 767px) {
+  .contactForm{
+    padding: 30px;
+  }
+  .contactForm:before{
+    width: 100%;
+  }
+
+}
+
+/* end css */
+
+    
+    /* For Desktop View */
+    @media screen and (min-width: 1024px) {
+   
+    }
+    
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+   
+    }
+    
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    
+    }
+    
+    /* For Mobile Landscape View */
+    @media screen and (max-device-width: 640px)
+    and (orientation: landscape) {
+    
+    }
+    
+    /* For Mobile Phones Portrait or Landscape View */
+    @media screen and (max-device-width: 640px) {
+   
+    }
+    
+    /* For iPhone 4 Portrait or Landscape View */
+    @media screen and (min-device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    
+    }
+    
+    /* For iPhone 5 Portrait or Landscape View */
+    @media (device-height: 568px) and (device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+   
+    }
+    
+    /* For iPhone 6 and 6 plus Portrait or Landscape View */
+    @media (min-device-height: 667px) and (min-device-width: 375px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+    
+    }
+    
+
+
+    
